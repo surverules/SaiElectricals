@@ -31,5 +31,7 @@ public class IteratorTest {
         stringList.stream()
                 .filter(list -> list.contentEquals("Pravin"))
                 .forEach(list -> System.out.println(list));
+
+
     }
 }
